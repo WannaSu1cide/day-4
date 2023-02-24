@@ -46,7 +46,7 @@ body {
     top:0;
     opacity: 0;
     transition: 0.5s;
-   
+   pointer-events: none;
 }
 
 .right,.left,.x {
@@ -77,7 +77,7 @@ i:hover{
     transform: scale(1.7);
     max-width: 100%;
     max-height: 100%;
-    /* pointer-events: auto; */
+    pointer-events: auto;
 }
 .gallery__inner img{
     width: 70%;
